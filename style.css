@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: antiquewhite;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 90%;
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.grid__item {
+  
+  line-height: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: tomato;
+}
+
+.grid__item:nth-child(2) {
+  background-color: rebeccapurple;
+}
+
+.grid__item:nth-child(3) {
+  background-color: aqua;
+}

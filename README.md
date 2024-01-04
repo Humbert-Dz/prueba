@@ -3,4 +3,4 @@
 >este es un reporitorio de prueba
 
 >[!Warning]
-> voy a ver si es que en verdad funciona las colaboraciones.
+> voy a ver si es que en verdad funcionan las colaboraciones.
